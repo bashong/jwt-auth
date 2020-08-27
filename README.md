@@ -34,3 +34,22 @@ The MIT License (MIT)
 [![Beerpay](https://beerpay.io/tymondesigns/jwt-auth/badge.svg)](https://beerpay.io/tymondesigns/jwt-auth)
 
 [![SensioLabs Insight](https://insight.sensiolabs.com/projects/ba600082-7869-4ea8-b877-0bf6a86d4988/small.png)](https://insight.sensiolabs.com/projects/ba600082-7869-4ea8-b877-0bf6a86d4988)
+
+
+
+
+
+
+
+
+Comments:
+
+
+if you wanted to use both api and web.
+
+auth.php
+
+guards.api.driver = jwt
+
+look for JWTAuthController for the jwt api controller
+
